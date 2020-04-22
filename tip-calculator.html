@@ -5,8 +5,55 @@
     <title>Tip Calculator</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
 <body>
+    <header>
+        <nav class="nav-wrapper teal">
+            <div class="container">
+            <a href="" class="brand-logo">Tip Calculator</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                    <li><a target="_blank" href="aryamaan-js.github.io/about-me">About Me</a></li>
+                    <li>
+                      <a target="_blank" href="https://www.youtube.com/channel/UCXNBXevmh77KJHNyuY3LQgA?sub_confirmation=1" class="btn-floating btn-small teal darken-4 tooltip" data-tooltip="Youtube">
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://twitter.com/AryamaanG" class="btn-floating btn-small teal darken-4 tooltip" data-tooltip="Twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://instagram.com/aryamaan27" class="btn-floating btn-small teal darken-4 tooltip" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="sidenav grey lighten-2" id="mobile-menu">
+                    <li><a target="_blank" href="aryamaan-js.github.io/about-me">About Me</a></li>
+                        <li>
+                          <a target="_blank" href="https://www.youtube.com/channel/UCXNBXevmh77KJHNyuY3LQgA?sub_confirmation=1">
+                            YouTube
+                          </a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://twitter.com/AryamaanG">
+                            Twitter
+                          </a>
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://instagram.com/aryamaan27">
+                            Instagram
+                          </a>
+                        </li>
+                  </ul>
+            </div>
+        </nav>
+    </header>
     <h2 class="teal-text"><i class="material-icons valign-wrapper" style="font-size: 45px;">monetization_on</i> Tip Calculator <i class="material-icons valign-wrapper" style="font-size: 45px;">monetization_on</i></h2>
     <div class="container" style="width: 50%;">
         <input type="text" id="bill">
@@ -21,6 +68,8 @@
     <div class="container" style="padding: 20px;" id="output">
         
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
